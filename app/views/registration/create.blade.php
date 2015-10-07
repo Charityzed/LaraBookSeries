@@ -1,9 +1,11 @@
 @extends('layout.default')
 
 @section('content')
-
+    <div class="row">
+<div class="col-md-6">
 
         <h1>Register!</h1>
+       @include('layout.partials.errors')
 
         {{ Form::open(['route'=>'register_path']) }}
         <div class="form-group">
@@ -31,4 +33,6 @@
             </div>
 
          {{ Form ::close()}}
+</div>
+    </div>
 @stop

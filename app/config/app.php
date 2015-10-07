@@ -84,7 +84,7 @@ return array(
 
 	/*
 	|--------------------------------------------------------------------------
-	| Autoloaded Service Providers
+	| Autoloaded Service Providers/
 	|--------------------------------------------------------------------------
 	|
 	| The service providers listed here will be automatically loaded on the
@@ -122,7 +122,8 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
-		'Laracasts\Commander\CommanderServiceProvider'
+		'Laracasts\Commander\CommanderServiceProvider',
+		'Laracasts\Validation\ValidationServiceProvider'
 	),
 
 	/*
